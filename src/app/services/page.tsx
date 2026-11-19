@@ -8,9 +8,15 @@ import { ContactSection } from "@/components/sites/simplesmile/ContactSection";
 import { Footer } from "@/components/sites/simplesmile/Footer";
 
 export const metadata: Metadata = {
-  title: "Endodontic & Restorative Services | Simple Smile Endodontics",
+  title: "Endodontic & Restorative Services",
   description:
-    "Comprehensive endodontic services in Stillwater, MN: root canal therapy, endodontic retreatment, apicoectomy, dental implants, and emergency dental care.",
+    "Comprehensive endodontic services in Stillwater, MN: root canal therapy, endodontic retreatment, apicoectomy, dental implants, cracked tooth treatment, and same-day emergency dental care at Simple Smile Endodontics.",
+  alternates: { canonical: "https://www.simplesmileendo.com/services" },
+  openGraph: {
+    title: "Endodontic & Restorative Services | Simple Smile Endodontics",
+    description: "Root canal therapy, retreatment, apicoectomy, implants & emergency care in Stillwater, MN.",
+    url: "https://www.simplesmileendo.com/services",
+  },
 };
 
 export default function ServicesPage() {

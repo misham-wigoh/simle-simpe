@@ -7,8 +7,15 @@ import { Footer } from "@/components/sites/simplesmile/Footer";
 import { blogPosts } from "@/lib/site-content";
 
 export const metadata: Metadata = {
-  title: "Blog | Simple Smile Endodontics Stillwater MN",
-  description: "Plain-language answers about root canals, tooth pain and endodontic care from Simple Smile Endodontics.",
+  title: "Dental Health Blog — Patient Guides & Articles",
+  description:
+    "Plain-language answers about root canals, tooth pain, endodontic procedures, and oral health from Simple Smile Endodontics in Stillwater, MN.",
+  alternates: { canonical: "https://www.simplesmileendo.com/blog" },
+  openGraph: {
+    title: "Dental Health Blog | Simple Smile Endodontics",
+    description: "Educational guides on root canals, tooth pain, and endodontic care.",
+    url: "https://www.simplesmileendo.com/blog",
+  },
 };
 
 export default function BlogIndex() {
@@ -40,7 +47,7 @@ export default function BlogIndex() {
                   i === 0 ? "md:col-span-2 min-h-[26rem]" : "min-h-[20rem]"
                 }`}
               >
-                <Image src={p.img} alt="" fill sizes="(min-width:768px) 50vw, 100vw" className="object-cover transition-transform duration-700 group-hover:scale-105" />
+                <Image src={p.img} alt={p.imgAlt || p.title} fill sizes="(min-width:768px) 50vw, 100vw" className="object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#060b1f]/95 via-[#060b1f]/50 to-transparent" />
                 <div className="relative p-6 sm:p-8 text-white">
                   <p className="text-xs text-[#cfe0ff]/80">{p.readTime}</p>

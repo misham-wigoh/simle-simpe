@@ -7,9 +7,17 @@ import { ClinicAtmosphere } from "@/components/sites/simplesmile/ClinicAtmospher
 import { Footer } from "@/components/sites/simplesmile/Footer";
 
 export const metadata: Metadata = {
-  title: "About Simple Smile Endodontics | Dr. Ernest Reeh | Stillwater, MN",
+  title: "About Dr. Ernest Reeh & Our Stillwater Practice",
   description:
-    "Learn about Dr. Ernest Reeh and Simple Smile Endodontics. Over 30 years of gentle, expert endodontic care and root canal therapy in Stillwater, MN.",
+    "Meet Dr. Ernest Reeh — over 30 years of gentle, expert endodontic care. Learn about our advanced technology, compassionate team, and Top Dentist recognition at Simple Smile Endodontics in Stillwater, MN.",
+  alternates: { canonical: "https://www.simplesmileendo.com/about" },
+  openGraph: {
+    title: "About Dr. Ernest Reeh & Our Stillwater Practice | Simple Smile Endodontics",
+    description:
+      "Meet Dr. Ernest Reeh — 30+ years of gentle endodontic care. Advanced 3D CBCT imaging, compassionate team, Top Dentist since 2007.",
+    url: "https://www.simplesmileendo.com/about",
+    images: [{ url: "https://www.simplesmileendo.com/images/stock/doctor.jpg", width: 1000, height: 1250, alt: "Dr. Ernest Reeh — Endodontist" }],
+  },
 };
 
 export default function AboutPage() {

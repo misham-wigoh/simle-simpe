@@ -1,0 +1,17 @@
+{
+  "name": "Simple Smile Endodontics",
+  "short_name": "Simple Smile",
+  "description": "Specialty endodontist practice in Stillwater, MN — root canal therapy, dental implants, and emergency care.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#14306b",
+  "icons": [
+    {
+      "src": "/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

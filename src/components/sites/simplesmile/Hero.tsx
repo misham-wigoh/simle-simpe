@@ -3,7 +3,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Phone, Star, ArrowRight, Sparkles, Award, ShieldCheck, Clock, MapPin } from "lucide-react";
-import { HeroCarousel } from "@/components/animations/HeroCarousel";
+import dynamic from "next/dynamic";
+
+const HeroCarousel = dynamic(
+  () => import("@/components/animations/HeroCarousel").then((m) => m.HeroCarousel),
+  {
+    ssr: false,
+    loading: () => <div className="w-full aspect-[4/3] md:aspect-[2/1] max-h-[620px]" />,
+  },
+);
 
 export function Hero() {
   return (
@@ -122,6 +130,7 @@ export function Hero() {
                         src="/images/stock/doctor.jpg"
                         alt="Dr. Ernest Reeh"
                         fill
+                        priority
                         className="object-cover object-top"
                       />
                     </div>
@@ -147,6 +156,8 @@ export function Hero() {
                     src="/images/stock/clinic-1.jpg"
                     alt="Simple Smile Endodontics Stillwater Operatory"
                     fill
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 480px"
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#060b1f]/90 via-transparent to-black/30" />
