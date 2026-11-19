@@ -103,6 +103,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased scroll-smooth">
+      <head>
+        <link
+          rel="preload"
+          href="/sites/simplesmile/67a88e29cb94fb7296962849_lato-regular-webfont.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/sites/simplesmile/67a88e6a3c7158693a9a144e_trocchi-regular-webfont.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-h-full flex flex-col font-sans bg-white text-[#14306b] selection:bg-[#cfe0ff] selection:text-[#060b1f]">
         <LocalBusinessJsonLd />
         <WebSiteJsonLd />
