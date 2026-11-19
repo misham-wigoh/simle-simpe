@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60" fill="none">
+  <!-- Dental Tooth & Simple Smile Emblem -->
+  <g transform="translate(6, 6)">
+    <!-- Modern Tooth Backing with Terracotta Hue -->
+    <rect width="48" height="48" rx="12" fill="#b14c38" />
+    
+    <!-- Stylized Tooth Roots and Crown in Crisp White -->
+    <path d="M 24 11 C 18 11 15 14 15 18 C 15 22 17 25 18 29 C 19 33 19 38 21 38 C 22.5 38 23 33 24 29 C 25 33 25.5 38 27 38 C 29 38 29 33 30 29 C 31 25 33 22 33 18 C 33 14 30 11 24 11 Z" 
+          fill="#ffffff" />
+    
+    <!-- Simple Smile Flow Line Accent -->
+    <path d="M 17 22 C 21 24 27 20 31 22" 
+          stroke="#002428" stroke-width="2.2" stroke-linecap="round" />
+    
+    <circle cx="24" cy="18" r="1.8" fill="#b14c38" />
+  </g>
+
+  <!-- Typography -->
+  <!-- "SIMPLE SMILE" -->
+  <text x="68" y="27" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" letter-spacing="0.04em" fill="#ffffff">
+    SIMPLE SMILE
+  </text>
+  
+  <!-- "ENDODONTICS" with Mint/Cyan Tint -->
+  <text x="68" y="44" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="0.22em" fill="#9fe2e7">
+    ENDODONTICS
+  </text>
+</svg>

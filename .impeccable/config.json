@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "lato",
+        "createdAt": "2026-11-18T14:59:58.993Z",
+        "reason": "Lato is the original font of the rivervalleyendo.com clone being reproduced; the project goal is fidelity to that site, not a new typeface (inferred from the clone brief, not user-confirmed)"
+      }
+    ]
+  }
+}

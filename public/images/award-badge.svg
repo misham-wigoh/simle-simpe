@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" width="240" height="140" fill="none">
+  <rect width="240" height="140" rx="16" fill="#f8faf9" stroke="#e2e8e8" stroke-width="2"/>
+  <g transform="translate(120, 48)">
+    <!-- Laurel Wreath & Star -->
+    <circle cx="0" cy="0" r="28" fill="#002428"/>
+    <path d="M 0 -14 L 3.5 -5 L 13 -4 L 6 3 L 8 13 L 0 8 L -8 13 L -6 3 L -13 -4 L -3.5 -5 Z" fill="#ffd700"/>
+  </g>
+  <text x="120" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="#002428" letter-spacing="0.08em">
+    TOP DENTISTS
+  </text>
+  <text x="120" y="116" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#b14c38" letter-spacing="0.12em">
+    EXCELLENCE IN ENDODONTICS
+  </text>
+</svg>
